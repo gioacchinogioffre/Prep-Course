@@ -1,0 +1,9 @@
+Una variable es un espacio en la memoria donde guardamos datos para representar un valor, sea un n煤mero, una palabra, et que utilizaremos durante la ejecuci贸n de un programa.
+
+Una string es una cadena o hilo de caracteres representada en apostrofes o comillas.
+
+Una funci胣 es una agrupaci贸n de c贸digos que nos permitdividir las tareas del programa de manera aislada.
+
+Una declaraci贸n es na definici贸n que contiene las instrucciones con las que rerealizar谩 el trabajo la funci贸n.
+
+Los valores booleanos nos dicen si una expresi贸n es verdadera o fala.
