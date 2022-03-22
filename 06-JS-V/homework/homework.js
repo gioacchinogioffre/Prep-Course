@@ -8,15 +8,15 @@ function crearUsuario() {
   // {{nombre}} debe ser el nombre definido en cada instancia
   // Devuelve la clase
   // Tu código:
-  function Usuario (usuario, nombre, email, password) {
-    this.usuario = usuario;
-    this.nombre = nombre;
-    this.email = email;
-    this.password = password;
-    this.saludar = function () {
-      return 'Hola, nombre es {{nombre}}';
+  function Usuario (opciones) {
+    this.usuario = opciones.usuario;
+    this.nombre = opciones.nombre;
+    this.email = opciones.email;
+    this.password = opciones.password;
     }
-  } var opciones = new Usuario ();
+   Usuario.prototype.saludar = function () {
+     return 'Hola, mi nombre es ' + this.nombre;
+   }
   return Usuario;
 }
 
@@ -36,10 +36,10 @@ function agregarStringInvertida() {
   // 'toni'.reverse() => 'inot'
   // Pista: Necesitarás usar "this" dentro de "reverse"
    String.prototype.reverse = function () {
-     this.reverse = function () {
-       return this.reverse()
-   }; var str = new String
-  }
+     var stringInvertida = '';
+     for (var i = this.length - 1; i >=0; i--) {
+       stringInvertida = stringInvertida + this.charAt(i);
+     } return stringInvertida; }
 }
 
 // ---------------------------------------------------------------------------//
