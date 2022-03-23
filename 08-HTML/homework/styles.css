@@ -1,0 +1,35 @@
+
+            
+            #thirDiv {
+                height: 600px;
+                width: 500px;
+                background:  ghostwhite;
+                padding: 50px;
+                border: 5px sandybrown;
+                display: flex;
+                align-items: start;
+                justify-content: center;
+                align-items: center;
+            }
+
+            #divClass {
+
+            display: flex;
+                align-items: start;
+                justify-content: center;
+                align-items: center;
+            }   
+
+            #spanId {
+                font-size: 18px;
+                margin: 50px;
+            }
+
+            body {
+                background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQr9Vd01IkSH2HqPUwHrlUb4dI6POMvep6PCg&usqp=CAU");           
+                background-repeat: repeat; 
+                display: flex;
+                justify-content: center;
+            }
+
+
