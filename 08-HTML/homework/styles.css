@@ -1,18 +1,25 @@
 
-            
-            #thirDiv {
+            h1 {
+                color: slategray;
+            }
+
+            img {
+                width: 400px;
+            }
+
+            #thirdDiv {
                 height: 600px;
                 width: 500px;
                 background:  ghostwhite;
                 padding: 50px;
-                border: 5px sandybrown;
+                border: 15px solid sandybrown;
                 display: flex;
                 align-items: start;
                 justify-content: center;
                 align-items: center;
             }
 
-            #divClass {
+            .divClass {
 
             display: flex;
                 align-items: start;
